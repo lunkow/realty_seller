@@ -523,7 +523,7 @@ function scrollMenuShower() {
     initFormQuiz();
 
     function initFormQuiz(){
-        alert('form init');
+        //alert('form init');
         $('form#formQuiz').submit(function (event) {
             alert('form submot');
 
